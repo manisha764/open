@@ -1,0 +1,18 @@
+sudo nmap -v -p 0-65535 -A 192.168.101.130 -oA metasploittable2
+
+ls
+cat metasploitable2.nmap
+
+sudo nmap -sS -O 192.168.101.255 (metasploit address) ifconfig
+
+sudo nmap -sv 192.168.101.123
+
+legion 192.162.101.0/24
+
+dns enumeration
+
+host packtpub.com
+host -t ns packtpub.com
+host -t mx packtpub.com
+
+nslookup
